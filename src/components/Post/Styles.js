@@ -5,7 +5,7 @@ let height = Dimensions.get('window').height;
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: height - 0.05 * height,
+    height,
   },
 
   //   videPlayButton: {
@@ -30,10 +30,8 @@ const styles = StyleSheet.create({
   bottomContainer: {
     padding: 10,
     justifyContent: 'space-between',
-    display: 'flex',
-    justifyContent: 'flex-start',
-    flexDirection: 'column',
-    alignItems: 'flex-start',
+    flexDirection: 'row',
+    alignItems: 'flex-end',
   },
   handle: {
     color: '#fff',
@@ -60,13 +58,7 @@ const styles = StyleSheet.create({
   songName: {
     color: '#fff',
     fontSize: 16,
-    marginLeft: -20,
-  },
-  songImage: {
-    alignItems: 'flex-start',
-    width: 50,
-    height: 50,
-    marginLeft: 10,
+    marginLeft: 20,
   },
   rightContainer: {
     alignSelf: 'flex-end',
@@ -79,16 +71,30 @@ const styles = StyleSheet.create({
     height: 50,
     borderRadius: 25,
     borderWidth: 2,
+    paddingBottom: 10,
+    marginBottom: 20,
     borderColor: '#fff',
   },
   iconContainer: {
     alignItems: 'center',
+    marginBottom: 18,
   },
   statsLabel: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 12,
     fontWeight: '600',
     marginTop: 5,
+  },
+  songImage: {
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    borderWidth: 2,
+    paddingBottom: 10,
+    marginBottom: 20,
+    borderColor: '#fff',
+    marginRight: -3,
+    // alignItems: 'flex-end',
   },
 });
 
