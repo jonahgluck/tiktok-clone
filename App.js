@@ -4,15 +4,14 @@
  */
 
 import React from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
-import AntDesign from 'react-native-vector-icons/AntDesign';
+import {StatusBar} from 'react-native';
+
 import Home from './src/screens/Home';
 
 const App: () => React$Node = () => {
   return (
     <>
-      <StatusBar barStyle="dark-content" />
-
+      <StatusBar barStyle="light-content" />
       <Home />
     </>
   );

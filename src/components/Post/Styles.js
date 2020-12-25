@@ -8,20 +8,20 @@ const styles = StyleSheet.create({
     height,
   },
 
-  //   videPlayButton: {
-  //     position: 'absolute',
-  //     top: 0,
-  //     left: 0,
-  //     bottom: 0,
-  //     right: 0,
-  //     zIndex: 100,
-  //   },
   video: {
     position: 'absolute',
     top: 0,
     left: 0,
     bottom: 0,
     right: 0,
+  },
+  videPlayButton: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    bottom: 0,
+    right: 0,
+    zIndex: 100,
   },
   uiContainer: {
     height: '100%',
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginLeft: 5,
     fontWeight: '300',
-    marginBottom: 5,
+    marginBottom: 7,
     alignContent: 'flex-start',
   },
   songRow: {
@@ -89,12 +89,10 @@ const styles = StyleSheet.create({
     width: 50,
     height: 50,
     borderRadius: 25,
-    borderWidth: 2,
     paddingBottom: 10,
     marginBottom: 20,
-    borderColor: '#fff',
+
     marginRight: -3,
-    // alignItems: 'flex-end',
   },
 });
 
