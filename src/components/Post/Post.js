@@ -12,6 +12,8 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
+let lastPress = 0;
+
 const Post = (props) => {
   const [post, setPost] = useState(props.post);
   const [isLiked, setIsLiked] = useState(false);
@@ -34,6 +36,7 @@ const Post = (props) => {
     <View style={styles.container}>
       <TouchableWithoutFeedback
         onPress={onPlayPausePress}
+        onLongPress={onLikePress}
         style={styles.videPlayButton}>
         <View>
           <Video
@@ -45,6 +48,7 @@ const Post = (props) => {
             onError={(e: LoadError) => console.error(e)}
             repeat={true}
             paused={paused}
+            muted={true}
           />
 
           <View style={styles.uiContainer}>

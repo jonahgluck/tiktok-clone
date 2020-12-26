@@ -5,7 +5,7 @@ let height = Dimensions.get('window').height;
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height,
+    height: height * '.9',
   },
 
   video: {
