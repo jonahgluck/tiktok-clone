@@ -5,14 +5,14 @@
 
 import React from 'react';
 import {StatusBar} from 'react-native';
-
-import Home from './src/screens/Home';
+import 'react-native-gesture-handler';
+import RootNavigation from './src/navigation/index';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="light-content" />
-      <Home />
+      <RootNavigation />
     </>
   );
 };
