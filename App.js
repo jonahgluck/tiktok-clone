@@ -54,12 +54,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <SafeAreaView>
-        <View>
-          <Header headerText="Auth" />
-          {this.renderForm()}
-        </View>
-      </SafeAreaView>
+      <>
+        <StatusBar barStyle="light-content" />
+        <RootNavigation />
+      </>
     );
   }
 }

@@ -91,7 +91,6 @@ const styles = StyleSheet.create({
     borderRadius: 25,
     paddingBottom: 10,
     marginBottom: 20,
-
     marginRight: -3,
   },
 });

@@ -3,54 +3,52 @@ export default [
     id: 'p1',
     user: {
       id: 'u1',
-      username: 'Nye',
+      username: 'ArmaniBeauty',
       image:
-        'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
+        'https://pbs.twimg.com/profile_images/1072771645016821760/qvwEFahG.jpg',
     },
     videoUri:
-      'https://d8vywknz0hvjw.cloudfront.net/fitenium-media-prod/videos/45fee890-a74f-11ea-8725-311975ea9616/proccessed_720.mp4',
+      'https://thumbs.gfycat.com/PracticalEnviousIndianspinyloach-mobile.mp4',
     description: 'hello from hw help!',
     song: 'the beatles',
     songImage:
-      'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
+      'https://ak.picdn.net/shutterstock/videos/1051121182/thumb/10.jpg?ip=x480',
     likes: 1223,
     comments: 212,
-    shares: 2,
+    shares: 247,
   },
   {
     id: 'p2',
     user: {
       id: 'u1',
-      username: 'Nye',
-      image:
-        'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
+      username: 'Lunar',
+      image: 'http://www.lunar.com/images/lunar-logo-16x.png',
     },
     videoUri:
-      'https://d8vywknz0hvjw.cloudfront.net/fitenium-media-prod/videos/45fee890-a74f-11ea-8725-311975ea9616/proccessed_720.mp4',
+      'https://thumbs.gfycat.com/RegularBlandAntelopegroundsquirrel-mobile.mp4',
     description: 'hello from hw help!',
     song: 'the beatles',
     songImage:
-      'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
-    likes: 1223,
-    comments: 212,
-    shares: 2,
+      'https://ak.picdn.net/shutterstock/videos/1056234386/thumb/1.jpg?ip=x480',
+    likes: 433,
+    comments: 3,
+    shares: 76,
   },
   {
     id: 'p3',
     user: {
       id: 'u1',
-      username: 'Nye',
+      username: 'CRYSTALiq',
       image:
-        'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
+        'https://thumb.tildacdn.com/tild3133-3438-4330-a562-653536396332/-/resize/60x/-/format/webp/crystaliq_icon.png',
     },
-    videoUri:
-      'https://d8vywknz0hvjw.cloudfront.net/fitenium-media-prod/videos/45fee890-a74f-11ea-8725-311975ea9616/proccessed_720.mp4',
+    videoUri: 'https://thumbs.gfycat.com/SkinnyImmenseHorseshoecrab-mobile.mp4',
     description: 'hello from hw help!',
     song: 'the beatles',
     songImage:
-      'https://cdn.vox-cdn.com/thumbor/lXm_AmbMRRUJVwsfcEdXd7D8D5Q=/0x0:3000x2000/1200x800/filters:focal(1260x760:1740x1240)/cdn.vox-cdn.com/uploads/chorus_image/image/64062111/1_LGFTlvUlC8iJ5mi-UPF7Uw.0.0.0.jpeg',
-    likes: 1223,
-    comments: 212,
-    shares: 2,
+      'https://img.freepik.com/free-vector/vinyl-record-player-turntable-vector-illustration-flat-cartoon_101884-690.jpg?size=338&ext=jpg',
+    likes: 12,
+    comments: 2,
+    shares: 25,
   },
 ];

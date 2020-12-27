@@ -12,15 +12,15 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import AntDesign from 'react-native-vector-icons/AntDesign';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
-let lastPress = 0;
-
 const Post = (props) => {
+  const [muted, setMuted] = useState(true);
   const [post, setPost] = useState(props.post);
   const [isLiked, setIsLiked] = useState(false);
   const [paused, setPaused] = useState(false);
 
   const onPlayPausePress = () => {
     setPaused(!paused);
+    setMuted(!true);
   };
 
   const onLikePress = () => {
@@ -48,7 +48,7 @@ const Post = (props) => {
             onError={(e: LoadError) => console.error(e)}
             repeat={true}
             paused={paused}
-            muted={true}
+            muted={muted}
           />
 
           <View style={styles.uiContainer}>
