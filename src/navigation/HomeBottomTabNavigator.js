@@ -77,7 +77,7 @@ const HomeBottomTabNavigator = () => {
       />
       <Tab.Screen
         name={'Inbox'}
-        component={Home}
+        component={() => <Text>Inbox</Text>}
         options={{
           tabBarIcon: ({color}) => (
             <MaterialCommunityIcons
